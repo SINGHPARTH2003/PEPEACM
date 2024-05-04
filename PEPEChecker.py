@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Dense, Flatten, Conv2D, MaxPooling2D
 #importing dataset
 from datasets import load_dataset
 
-Dataset1 = load_dataset("vikhyatk/synthetic-pepe")
+sets = load_dataset("vikhyatk/synthetic-pepe")
 
 #taking nopepe dataset
 df = tf.keras.utils.image_dataset_from_directory('drive')
